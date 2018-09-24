@@ -1,0 +1,20 @@
+{
+    "name": "chena/quete_composer",
+    "description": "Projet quête_composer",
+    "authors": [
+        {
+            "name": "Kr4v3n",
+            "email": "fafachen37@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ehime/hello-world": "1.0.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
