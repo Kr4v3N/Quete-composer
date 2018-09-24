@@ -1,10 +1,7 @@
-
 <?php
-
 require '../vendor/autoload.php';
-
-$hello = new App\wcs\Hello();
-$HelloWorld = new HelloWorld\SayHello();
-
-echo $hello->talk(). '<br>';
-echo $HelloWorld->world();
+require '../src/Wcs/Hello.php';
+$hello = new \HelloWorld\SayHello();
+echo $hello->world() . '<br/>';
+$hello = new \App\Wcs\Hello();
+echo $hello->talk();
