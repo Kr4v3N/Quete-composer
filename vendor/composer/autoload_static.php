@@ -37,6 +37,10 @@ class ComposerStaticInit42c14d14e837dd0c520faf8c273358c7
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
         ),
+        'M' => 
+        array (
+            'Michelf\\' => 8,
+        ),
         'B' => 
         array (
             'BecklynSymfonyBase\\' => 19,
@@ -123,6 +127,10 @@ class ComposerStaticInit42c14d14e837dd0c520faf8c273358c7
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Michelf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
         ),
         'BecklynSymfonyBase\\' => 
         array (

@@ -11,7 +11,8 @@
     "require": {
         "ehime/hello-world": "1.0.5",
         "becklyn/symfony-base": "dev-master",
-        "symfony/framework-bundle": "4.1.x-dev"
+        "symfony/framework-bundle": "4.1.x-dev",
+        "michelf/php-markdown": "1.8.0"
     },
 
     "autoload": {
